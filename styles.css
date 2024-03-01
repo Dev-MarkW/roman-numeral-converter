@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to top, #665a2a, 70%, #3a3318);
+  background-image: linear-gradient(to top, black, 70%, #3a3318);
   background-repeat: no-repeat;
   height: 100vh;
   display: block;
@@ -16,11 +16,11 @@ body {
 h1 {
   width: 78%;
   text-align: center;
-  color: #ffe819;
+  color: #bead12;
   display: block;
   font-size: 40px;
-  background-image: linear-gradient(to bottom, #B4A153, 97%, rgb(71, 64, 25));
-  border: 2px solid black;
+  background-image: linear-gradient(to bottom, black,2%,#3a3318, 96%, black);
+  border: 2px solid #706527;
   border-radius: 10px;
   position: center;
   margin: 25px auto;
@@ -64,18 +64,18 @@ button {
 }
 
 button:hover {
-  background-color:#000000;
+  background-color:#bead12;
   color: #ffe819;
 }
 
 #output {
   width: 50%;
   text-align: center;
-  color: #ffe819;
+  color: #bead12;
   display: block;
   font-size: 15px;
-  background-image: linear-gradient(to bottom, #B4A153, 97%, rgb(71, 64, 25));
-  border: 2px solid black;
+  background-image: linear-gradient(to bottom, black,2%,#3a3318, 96%, black);
+  border: 2px solid #706527;
   border-radius: 10px;
   position: center;
   margin: 0 auto;
@@ -88,18 +88,30 @@ img {
   width: 250px;
   height: 250px;
   border-radius: 10px;
+  border: 2px solid #706527;
 }
 
 #input-container {
   width: 65%;
   text-align: center;
-  color: #ffe819;
+  color: #bead12;
   display: block;
   font-size: 25px;
-  background-image: linear-gradient(to bottom, #B4A153, 97%, rgb(71, 64, 25));
-  border: 2px solid black;
+  background-image: linear-gradient(to bottom, black,2%,#3a3318, 96%, black);
+  border: 2px solid #706527;
   border-radius: 10px;
   position: center;
   margin: 0 auto;
   margin-top: 25px;
+}
+
+footer {
+  text-align: center;
+  color: #bead12;
+  font-size: 10px;
+}
+
+hr {
+  margin-top: 15px;
+  border: 1px solid #706527;
 }
