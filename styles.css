@@ -10,6 +10,7 @@ body {
   height: 100vh;
   display: block;
   align-items: center;
+  background-attachment: fixed;
 }
 
 h1 {
